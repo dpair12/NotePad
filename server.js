@@ -30,7 +30,7 @@ app.post('/api/notes', (req, res) => {
   const userID = uuidv4();
 
   if (title && text) {
-    // Generate a unique id for the new note
+    // Generate a unique id for the a new note
     const newNote = {
       title,
       text,
