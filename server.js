@@ -5,7 +5,7 @@ const db = require('./db/db.json');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
-//PORT
+
 const PORT = 3001;
 
 //Instinitiate Express
