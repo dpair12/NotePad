@@ -6,7 +6,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 //Instinitiate Express
 const app = express();
@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-// GET Route for Notes Page
+// GET Route for Notes Page a
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
