@@ -17,7 +17,7 @@ This project is a represenation of my current knowledge of nodejs and utilizing 
 
 ## Application-Demo
 
-
+![](https://github.com/dpair12/NotePad/blob/main/Demo.gif)
 
 ## Installation
 
