@@ -36,8 +36,8 @@ I am the sole contributor to this project.
 
 Aside from connecting the backend to the front in using proper pathing in my routes, not much testing was required since I built this off of preexisting starter code. 
 
-## Deployed Application URL
-
+## Deployed Application URL (Heroku)
+https://powerful-lowlands-31249-bc525d147fd6.herokuapp.com/
 
 ## Questions
 
